@@ -8,3 +8,22 @@ body{
 button{
     cursor: pointer;
 }
+header{
+        width: 1440px;
+height: 72px;
+}
+.effective-solutions{
+    background-color: #2E2F42;
+    width: 1440px;
+height: 600px;
+}
+.our-team{
+    background-color: #F4F4FD;
+    width: 1440px;
+height: 732px;
+}
+footer{
+    background-color: #2E2F42;
+    width: 1440px;
+height: 312px;
+}
