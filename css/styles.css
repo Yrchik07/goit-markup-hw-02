@@ -21,9 +21,10 @@ button{
 .logo_text{
     color: #2e2f42;
 }
-.on_the_main{
+.navigation{
     font-weight: 500;
     color:  #2e2f42;
+    letter-spacing: 0.02em;
 }
 a:hover, a:focus{
     color: #404bbf;
@@ -34,4 +35,24 @@ a:hover, a:focus{
 .address{
     letter-spacing: 0.02em;
     color:  #434455;
+}
+.effective-solutions{
+    background-color: #2e2f42;
+}
+.first_level_header{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.order{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.order:hover, .order:focus{
+    background-color: #404BBF;
 }
