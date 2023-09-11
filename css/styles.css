@@ -1,29 +1,37 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 button{
     cursor: pointer;
 }
-header{
-        width: 1440px;
-height: 72px;
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    
 }
-.effective-solutions{
-    background-color: #2E2F42;
-    width: 1440px;
-height: 600px;
+.logo_text{
+    color: #2e2f42;
 }
-.our-team{
-    background-color: #F4F4FD;
-    width: 1440px;
-height: 732px;
+.on_the_main{
+    font-weight: 500;
+    color:  #2e2f42;
 }
-footer{
-    background-color: #2E2F42;
-    width: 1440px;
-height: 312px;
+a:hover, a:focus{
+    color: #404bbf;
+}
+.contact_information{
+    font-style: normal;
+}
+.address{
+    letter-spacing: 0.02em;
+    color:  #434455;
 }
