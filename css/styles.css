@@ -56,3 +56,25 @@ a:hover, a:focus{
 .order:hover, .order:focus{
     background-color: #404BBF;
 }
+
+.heading_of_the_second_section{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.plan_p{
+    letter-spacing: 0.02em;
+}
+
+.bottom_of_page{
+    background-color:  #2e2f42;
+}
+.logo_footer{
+    color: #f4f4fd;
+}
+.bottom_of_page_p{
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
