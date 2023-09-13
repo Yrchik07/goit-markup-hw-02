@@ -12,6 +12,20 @@ button{
 a:hover, a:focus{
     color: #404bbf;
 }
+/*remove dots and underscores*/
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*remove dots and underscores 2*/
+/* .list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+} */
 /*header*/
 .navigation_link_logo{
     font-family: "Raleway", sans-serif;
