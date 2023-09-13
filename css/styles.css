@@ -76,7 +76,6 @@ a{
 }
 /*section two*/
 .visually_hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
