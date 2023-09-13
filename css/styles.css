@@ -1,3 +1,4 @@
+/*underground*/
 body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -8,7 +9,11 @@ body{
 button{
     cursor: pointer;
 }
-.logo{
+a:hover, a:focus{
+    color: #404bbf;
+}
+/*header*/
+.navigation_link_logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,65 +21,100 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
 }
-.logo_text{
+.navigation_text{
     color: #2e2f42;
 }
-.navigation{
+.navigation_link{
     font-weight: 500;
     color:  #2e2f42;
     letter-spacing: 0.02em;
 }
-a:hover, a:focus{
-    color: #404bbf;
-}
-.contact_information{
+
+.contact{
     font-style: normal;
 }
-.address{
+.contact_link{
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.effective-solutions{
+/*main*/
+/*section one*/
+.solutions{
     background-color: #2e2f42;
 }
-.first_level_header{
+.solutions_title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
 }
-.order{
+.solutions_btn{
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
 }
-.order:hover, .order:focus{
+.solutions_btn:hover, .solutions_btn:focus{
     background-color: #404BBF;
 }
-
-.heading_of_the_second_section{
+/*section two*/
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.plan_title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.plan_p{
+.plan_text{
     letter-spacing: 0.02em;
 }
+/*section three*/
+.team{
+    background-color: #F4F4FD;
+}
+.section_heading_three{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
-.bottom_of_page{
+
+
+/*footer*/
+.basement{
     background-color:  #2e2f42;
 }
-.logo_footer{
+.basement_link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.basement_footer{
     color: #f4f4fd;
 }
-.bottom_of_page_p{
+.basement_text{
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
